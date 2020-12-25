@@ -9,9 +9,11 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,7 +29,9 @@ TextView gotosignup;
     private CardView LogInButton;
     private EditText InputPassword,InputPhone;
     private ProgressDialog loading;
+    private RadioButton Doc,Student;
     private String parentDbName ="Users";
+    private String User_Type ="Student";
    // private CheckBox mCheckBox;
     private TextView AdminPanelTextView,NotAdmenLink;
     @Override
@@ -35,15 +39,23 @@ TextView gotosignup;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.log_in);
        Paper.init(this);
+       Doc=(RadioButton)findViewById(R.id.radioButton);
+        Student=(RadioButton)findViewById(R.id.radioButton2);
         LogInButton=(CardView)findViewById(R.id.login_login_btn);
         InputPassword=(EditText)findViewById(R.id.login_password_input);
         InputPhone=(EditText)findViewById(R.id.login_name_input);
         gotosignup=(TextView)findViewById(R.id.textView3);
         loading=new ProgressDialog(this);
+
+        Log.e("usertype",User_Type);
         LogInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                if(Doc.isChecked()){User_Type="Doctor";}
+                if (Student.isChecked()){User_Type="Student" ;}
                 LoginUser();
+
             }
         });
 
@@ -98,14 +110,15 @@ TextView gotosignup;
         RootRef.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                if (dataSnapshot.child(parentDbName).child("Student").child(phone).exists())
+                if (dataSnapshot.child(parentDbName).child(User_Type).child(phone).exists())
                 {
-                    Users users =dataSnapshot.child(parentDbName).child("Student").child(phone).getValue(Users.class);
+                    Users users =dataSnapshot.child(parentDbName).child(User_Type).child(phone).getValue(Users.class);
+                    Log.e("usertype",User_Type);
                     if (users.getName().equals(phone)){
                         if (users.getPassword().equals(password)){
                            if (parentDbName.equals("Users")){ Toast.makeText(DashBoard.this,"Welcome "+users.getName().toString()+".",Toast.LENGTH_SHORT).show();
                                 loading.dismiss();
-                                Intent HomeIntent =new Intent(DashBoard.this,MainActivity.class);
+                                Intent HomeIntent =new Intent(DashBoard.this,student_activity.class);
                                 startActivity(HomeIntent);}
 
                         }else{Toast.makeText(DashBoard.this,"wrong password",Toast.LENGTH_SHORT).show();
@@ -116,7 +129,7 @@ TextView gotosignup;
                 }else {
 
                     Toast.makeText(DashBoard.this,"Account with this "+phone+" doesn`y exist ,please Create an account to login",Toast.LENGTH_SHORT).show();
-                    Intent Registerintent =new Intent(DashBoard.this,MainActivity.class);
+                    Intent Registerintent =new Intent(DashBoard.this,Sign_UpActivity.class);
                     startActivity(Registerintent);
                     loading.dismiss();}
             }

@@ -66,8 +66,8 @@ public class Sign_UpActivity extends AppCompatActivity {
             loading.setCanceledOnTouchOutside(false);
             loading.show();
         //    User_Type.equals("Student");
-         if(Doc.isChecked()){User_Type="Doctor" ;}
-       if (Student.isChecked()){User_Type="Student";}
+         if(Doc.isChecked()){User_Type="Doctor";}
+       if (Student.isChecked()){User_Type="Student" ;}
             ValidatePhoneNumber(User_Name, User_Email, User_password,User_Type);
         }
     }private void ValidatePhoneNumber(final String User_Name, final String User_Email, final String User_password,final String User_Type) {
@@ -87,14 +87,14 @@ public class Sign_UpActivity extends AppCompatActivity {
                         public void onComplete(@NonNull Task<Void> task) {
                             if (task.isSuccessful()){Toast.makeText(Sign_UpActivity.this,"your account has been created",Toast.LENGTH_SHORT).show();
                                 loading.dismiss();
-                                Intent loginintent =new Intent(Sign_UpActivity.this,DashBoard.class);
+                                Intent loginintent =new Intent(Sign_UpActivity.this, courses_activity.class);
                                 startActivity(loginintent);}else {Toast.makeText(Sign_UpActivity.this,"Network is very bad",Toast.LENGTH_SHORT).show();}
                         }
                     });
                 }
                 else {Toast.makeText(Sign_UpActivity.this,"This "+User_Name+"Is already registered please try another Email",Toast.LENGTH_SHORT).show();
                     loading.dismiss();
-                    Intent Mainintent =new Intent(Sign_UpActivity.this,MainActivity.class);
+                    Intent Mainintent =new Intent(Sign_UpActivity.this,student_activity.class);
                     startActivity(Mainintent);}
             }
 
