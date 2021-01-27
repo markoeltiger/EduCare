@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a10558af-a905-46fa-bd9d-fb001b08346b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/EduCare-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/EduCare.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/androidTest/java/com/example/educare/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/java/com/example/educare/Adapter/ChatAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/java/com/example/educare/Adapter/CourseAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/java/com/example/educare/Adapter/StudntAdap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/java/com/example/educare/Adapter/ViewHolderClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/java/com/example/educare/DashBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/java/com/example/educare/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/java/com/example/educare/Model/Chat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/java/com/example/educare/Model/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/java/com/example/educare/Model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/java/com/example/educare/Model/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/java/com/example/educare/Sign_UpActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/java/com/example/educare/chat_activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/java/com/example/educare/courses_activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/java/com/example/educare/materials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/java/com/example/educare/professors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/java/com/example/educare/professors_chat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/java/com/example/educare/student_activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/anim/bottom_animation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/anim/top_animation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-anydpi/ic_action_lock.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-anydpi/ic_action_user.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-hdpi/ic_action_lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-hdpi/ic_action_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-hdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-mdpi/ic_action_lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-mdpi/ic_action_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-mdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-tvdpi/ic_baseline_account_circle_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-tvdpi/ic_baseline_email_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-tvdpi/ic_baseline_lock_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-tvdpi/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-tvdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-tvdpi/round_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-tvdpi/rounded_corners.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-tvdpi/twitter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-v24/edu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-v24/google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-v24/koko.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-v24/linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-v24/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-v24/logo1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-v24/logo5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-v24/microsoft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-xhdpi/ic_action_lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-xhdpi/ic_action_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-xhdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-xxhdpi/ic_action_lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-xxhdpi/ic_action_user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-xxhdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable-xxxhdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable/ic_baseline_person_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable/rounded_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/drawable/selectory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/font/allan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/font/allan_bold.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/font/annie_use_your_telescope.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/font/arbutus.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/font/autour_one.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/font/bangers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/layout/activity_all.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/layout/activity_materials.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/layout/activity_professors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/layout/activity_professors_chat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/layout/activity_sign__up.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/layout/list_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/layout/log_in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/menu/menu_navigation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/menu/menu_professor_navigation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/navigation/my_nav.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/values/font_certs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/app/src/test/java/com/example/educare/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/EduCare/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EduCare-master/Work.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication/app/src/main/res/drawable/ic_baseline_email_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication/app/src/main/res/drawable/ic_baseline_lock_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication/app/src/main/res/drawable/round_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication/app/src/main/res/drawable/rounded_corners.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication/app/src/main/res/drawable/twitter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication/app/src/main/res/values/refs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication55/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication55/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication55/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication55/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication55/.idea/dictionaries/Rahma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication55/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication55/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication55/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication55/.idea/render.experimental.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication55/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication55/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplicationsss/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplicationsss/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplicationsss/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplicationsss/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New folder (2)/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New folder (2)/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New folder (2)/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New folder (2)/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New folder (2)/.idea/dictionaries/Rahma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New folder (2)/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New folder (2)/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New folder (2)/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New folder (2)/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New folder (2)/.idea/render.experimental.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New folder (2)/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New folder (2)/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShamNature/Group 613.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShamNature/Group 660.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShamNature/app/src/main/res/drawable/ic_group_613.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShamNature/app/src/main/res/font/abel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShamNature/app/src/main/res/values/font_certs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShamNature/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SqlLite/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SqlLite/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SqlLite/.idea/dictionaries/Rahma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SqlLite/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SqlLite/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SqlLite/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SqlLite/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SqlLite/app/src/main/java/com/example/sqllite/AddActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SqlLite/app/src/main/java/com/example/sqllite/MyDatabaseHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SqlLite/app/src/main/res/layout/activity_add.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SqlLite/app/src/main/res/raw/drawable/ic_add.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella.apk/release/app-release.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella.apk/release/output-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella.apk/teast.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/.idea/dictionaries/Rahma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/java/com/example/caramella/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/java/com/example/caramella/Myitem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/java/com/example/caramella/adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/java/com/example/caramella/finaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/java/com/example/caramella/fristPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/java/com/example/caramella/secondPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/java/com/example/caramella/threedPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/drawable-v24/back1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/drawable-v24/back3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/drawable-v24/back4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/drawable-v24/back5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/drawable-v24/cover6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/drawable-v24/cover7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/drawable-v24/cover8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/drawable/caver.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/font/.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/font/aclonica.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/font/aladin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/font/chicle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/layout/activity_fina_page.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/layout/activity_frist_page.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/layout/activity_second_page.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/layout/activity_threed_page.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/layout/list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-anydpi-v26/caver.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/cover7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/cover8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/mipmap-mdpi/icon9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/values-ar/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/values/font_certs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../caramella/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/androidTest/java/com/example/card_view/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/main/java/com/example/card_view/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/app/src/test/java/com/example/card_view/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../card_view/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../count/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../count/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../count/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../count/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../count/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../count/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../count/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../count/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/androidTest/java/com/example/ra/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/java/com/example/ra/AdminPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/java/com/example/ra/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/drawable/ic_baseline_email_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/drawable/ic_baseline_lock_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/drawable/round_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/drawable/rounded_corners.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/drawable/twitter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/layout/activity_admin_page.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/mipmap-xhdpi/logo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/app/src/test/java/com/example/ra/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ra/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1m9g831WrHuwWmxLH4F8FNP24Zy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/EduCare-master" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a10558af-a905-46fa-bd9d-fb001b08346b" name="Default Changelist" comment="" />
+      <created>1608911057294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608911057294</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="429" y="108" key="FileChooserDialogImpl" timestamp="1611267103174">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="429" y="108" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611267103174" />
+  </component>
+</project>
