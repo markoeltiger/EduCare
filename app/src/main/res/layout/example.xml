@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/relativeone"
+        android:layout_width="335dp"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Dalia Maged Abdelfattah"
+            android:textSize="24sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/item_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_name"
+            android:text="16897138582006"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/item_email1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_id"
+            android:text="doda.mageddd@gmail"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_margin="6dp"
+
+        >
+
+        <TextView
+            android:id="@+id/item_dep1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SE" />
+
+        <TextView
+            android:id="@+id/item_level2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_dep1"
+            android:paddingTop="4dp"
+            android:text="Three" />
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
