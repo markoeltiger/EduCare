@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/prfessor_student"
+        android:title="Student"
+        />
+
+    <item
+        android:id="@+id/materials"
+        android:title="materials" />
+    <item
+        android:id="@+id/professor_chat"
+        android:title="Chats"/>
+
+</menu>

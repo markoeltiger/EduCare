@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+
+    android:padding="6dp"
+
+
+>
+
+
+    <LinearLayout
+        android:id="@+id/relativeone"
+        android:layout_width="306dp"
+        android:background="#38437c"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:id="@+id/course_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction to software"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/course_item_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/course_item_name"
+            android:text="it gives you indtroduction to software"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/course_item_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/course_item_description"
+            android:text="che12245"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/course_item_period"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SE"
+            android:textColor="#fff" />
+        <TextView
+            android:id="@+id/course_item_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="chemestry"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_senders"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:id="@+id/sender_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sender name"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        />
+
+    <TextView
+        android:layout_below="@id/sender_name"
+        android:id="@+id/sender_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:textSize="16dp"
+        android:text="sender message" />
+</RelativeLayout>
